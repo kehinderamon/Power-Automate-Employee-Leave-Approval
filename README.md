@@ -78,6 +78,49 @@ These integrations can be added in an environment with the appropriate Microsoft
 - Add approval status tracking
 - Add reporting and analytics
 
+
+## Testing
+
+The workflow was tested against multiple scenarios to verify date validation, duration calculation, conditional routing, and leave-type classification.
+
+Test scenarios included:
+
+- Standard 5-day leave request
+- Extended 8-day leave request
+- Invalid date range
+- Sick Leave / non-annual leave
+- Single-day leave request
+
+All documented core workflow tests passed.
+
+See the full test documentation in [`docs/test-cases.md`](docs/test-cases.md).
+
+## Key Learning Outcomes
+
+Through this project, I gained practical experience with:
+
+- Building cloud flows in Microsoft Power Automate
+- Working with manual triggers and dynamic content
+- Using Compose actions to structure data
+- Creating and updating variables
+- Writing Power Automate expressions
+- Calculating inclusive date differences
+- Implementing conditional business logic
+- Creating multiple routing branches
+- Validating user input
+- Terminating invalid workflow executions
+- Configuring Run After behavior
+- Debugging flows using run history
+- Designing and documenting test cases
+- Documenting an automation project for GitHub
+
+## Export Package
+
+The Power Automate export package is not included in this public repository because exported packages contain environment-specific metadata and identifiers.
+
+The workflow can be recreated from the documented architecture, business rules, expressions, screenshots, and test cases included in this repository.
+
+
 ## Project Status
 
 Core workflow logic: **Complete**
