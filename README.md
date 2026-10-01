@@ -1,6 +1,13 @@
 # Power-Automate-Employee-Leave-Approval
 Employee leave request validation and approval routing workflow built with Microsoft Power Automate.
 
+## Workflow Screenshot
+
+The following screenshot shows the complete Power Automate workflow, including date validation, leave-day calculation, approval routing, and leave-type classification.
+
+![Power Automate Employee Leave Approval Workflow](screenshots/flow-overview.png)
+
+
 # Employee Leave Approval System .. Microsoft Power Automate
 
 A Microsoft Power Automate workflow that validates employee leave requests, calculates leave duration, and routes requests based on business rules.
